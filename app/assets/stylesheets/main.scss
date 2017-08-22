@@ -15,14 +15,27 @@ $white:                           #fff;
 $gray__lighter:                   #f6f6f9;
 $gray__light:                     #edeff3;
 $gray:                            #d8dae0;
-$gray-dark:                       #b8bdc5;
-$gray-darker:                     #6a6f72;
+$gray__dark:                       #b8bdc5;
+$gray__darker:                     #6a6f72;
+$red:                             #ee2761;
+$green:                           #32b259;
 
 /* SIZING & MARGINS */
 $spacing__small:                  5px;
 $spacing__base:                   10px;
 $spacing__large:                  20px;
 $spacing__larger:                 40px;
+
+/*******************************************************
+DEBUG STYLING
+*******************************************************/
+.debug_dump {
+  background-color: $gray__lighter;
+  border: 1px solid $gray__dark;
+  color: $gray__darker;
+  margin: $spacing__large;
+  padding: $spacing__large;
+}
 
 /*******************************************************
 BASE UI ELEMENTS & STYLING
