@@ -1,0 +1,48 @@
+/* Core Storebuilder Code */
+
+/*******************************************************
+GLOBAL VARIABLES
+*******************************************************/
+
+/* FONT SIZES */
+$fontsize__small:                 13px;
+$fontsize__base:                  15px;
+$fontsize__large:                 20px;
+
+/* FONT COLORS */
+$black:                           #0a0918;
+$white:                           #fff;
+$gray__lighter:                   #f6f6f9;
+$gray__light:                     #edeff3;
+$gray:                            #d8dae0;
+$gray-dark:                       #b8bdc5;
+$gray-darker:                     #6a6f72;
+
+/* SIZING & MARGINS */
+$spacing__small:                  5px;
+$spacing__base:                   10px;
+$spacing__large:                  20px;
+$spacing__larger:                 40px;
+
+/*******************************************************
+BASE UI ELEMENTS & STYLING
+*******************************************************/
+
+/* BODY */
+body {
+  font-size: $fontsize__base;
+}
+
+/* HEADER */
+#header {
+  color: $gray;
+  font-size: $fontsize__small;
+  margin-bottom: $spacing__larger;
+}
+
+/* FOOTER */
+#footer {
+  color: $gray;
+  font-size: $fontsize__small;
+  margin: $spacing__larger 0;
+}
